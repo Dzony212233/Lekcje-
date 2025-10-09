@@ -1,8 +1,0 @@
-<?php
-$liczba = 0;
-
-while ($liczba >= -10) {
-    echo $liczba;
-    $liczba--;
-}
-?>
