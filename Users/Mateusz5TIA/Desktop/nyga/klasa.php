@@ -1,17 +1,18 @@
-<?php  
-    class auto{
-        private $marka;
-        private $model;
-        public $moc;
+<?php
+class Fruit {
+    // Properties
+    public $name;
+    public $color;
 
-        $fiacik= new auto();
 
-         function __construct($marka) {
-        $this->marka = $marka
+    // Methods
+    function set_name($name) {
+        $this->name = $name;
     }
-    Function __destruct() {
-        echo "The car is {$this ->marka}.";
+
+
+    function get_name() {
+        return $this->name;
     }
 }
-
-
+?>
